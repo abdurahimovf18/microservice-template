@@ -1,7 +1,7 @@
 .PHONY: test test-quiet
 
 test:
-	pytest
+	uv run pytest
 
 test-quiet:
-	pytest -q
+	uv run pytest -q
