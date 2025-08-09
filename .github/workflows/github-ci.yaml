@@ -11,8 +11,8 @@ jobs:
     name: Push images
     runs-on: ubuntu-latest
     steps:
-      name: Echo Implementation
-      run: echo Pushing docker container should be implemented using Harbor or other solutions.
+       - name: Echo Implementation
+         run: echo Pushing docker container should be implemented using Harbor or other solutions.
 
   lints:
     name: Run Linters
