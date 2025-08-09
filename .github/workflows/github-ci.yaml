@@ -7,6 +7,7 @@ on:
 jobs:
 
   push-images:
+    needs: [lints, tests]
     name: Push images
     runs-on: ubuntu-latest
     steps:
